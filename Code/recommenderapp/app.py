@@ -16,7 +16,7 @@ app.secret_key = "secret key"
 CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Replace 'YOUR_API_KEY' with your actual OMDB API key
-OMDB_API_KEY = 'b726fa05'
+OMDB_API_KEY = '26d2e5d0'
 
 def get_movie_info(title):
     index=len(title)-6
